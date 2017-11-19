@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "trajPrice",
+        "equation": "value*color*quantity"
+    },
+    {
+        "id": 2,
+        "name": "zincPrice",
+        "equation": "value*color"
+    },
+    {
+        "id": 3,
+        "name": "laminationPrice",
+        "equation": "(value/printingSize)*quantity"
+    },
+    {
+        "id": 4,
+        "name": "takseerPrice",
+        "equation": "value*quantitySizeRoundUp"
+    },
+    {
+        "id": 5,
+        "name": "transport",
+        "equation": "transport"
+    },
+    {
+        "id": 6,
+        "name": "paperPrice",
+        "equation": "((quantity*1000)/printingSize)*value"
+    },
+    {
+        "id": 7,
+        "name": "singleNormal",
+        "equation": "trajPrice+zincPrice+paperPrice+transport"
+    },
+    {
+        "id": 8,
+        "name": "doubleNormal",
+        "equation": "(trajPrice*2)+(zincPrice*2)+paperPrice+transport"
+    },
+    {
+        "id": 9,
+        "name": "singleLamination",
+        "equation": "trajPrice+zincPrice+laminationPrice+paperPrice+transport"
+    },
+    {
+        "id": 10,
+        "name": "doubleLamination",
+        "equation": "(trajPrice*2)+(zincPrice*2)+(laminationPrice*2)+paperPrice+transport"
+    },
+    {
+        "id": 11,
+        "name": "singleLaminationTakseer",
+        "equation": "trajPrice+zincPrice+laminationPrice+takseerPrice+paperPrice+transport"
+    },
+    {
+        "id": 12,
+        "name": "doubleLaminationTakseer",
+        "equation": "(trajPrice*2)+(zincPrice*2)+(laminationPrice*2)+takseerPrice+paperPrice+transport"
+    },
+    {
+        "id": 13,
+        "name": "quantity",
+        "equation": "quantity/1000"
+    }
+]

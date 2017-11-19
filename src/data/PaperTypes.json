@@ -1,0 +1,26 @@
+[
+  {
+    "label":"Single - Normal",
+    "value":"singleNormal"
+  },
+  {
+    "label":"Double - Normal",
+    "value":"doubleNormal"
+  },
+  {
+    "label":"Single - Lamination",
+    "value":"singleLamination"
+  },
+  {
+    "label":"Double - Lamination",
+    "value":"doubleLamination"
+  },
+  {
+    "label":"Single - Lamination & Takseer",
+    "value":"singleLaminationTakseer"
+  },
+  {
+    "label":"Double - Lamination & Takseer",
+    "value":"doubleLaminationTakseer"
+  }
+]

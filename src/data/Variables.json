@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "name": "Width",
+    "label": "width",
+    "input_unit": "cm",
+    "output_unit": "m",
+    "equation": "value/100",
+    "value": "88"
+  },
+  {
+    "id": "2",
+    "name": "Height",
+    "label": "height",
+    "input_unit": "cm",
+    "output_unit": "m",
+    "equation": "value/100",
+    "value": "66"
+  },
+  {
+    "id": "3",
+    "name": "Weight",
+    "label": "weight",
+    "input_unit": "g",
+    "output_unit": "ton",
+    "equation": "value/1000000",
+    "value": "300"
+  },
+  {
+    "id": "4",
+    "name": "POT",
+    "label": "pot",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*1",
+    "value": "15000"
+  },
+  {
+    "id": "5",
+    "name": "CPS",
+    "label": "cps",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*1",
+    "value": "5"
+  },
+  {
+    "id": "6",
+    "name": "Traj",
+    "label": "trajPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*color*(quantity/1000)",
+    "value": "30"
+  },
+  {
+    "id": "7",
+    "name": "Zinc",
+    "label": "zincPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*color",
+    "value": "25"
+  },
+  {
+    "id": "8",
+    "name": "Lamination",
+    "label": "laminationPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "(value/printingSize)*quantity",
+    "value": "1"
+  },
+  {
+    "id": "9",
+    "name": "Takseer",
+    "label": "takseerPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*quantitySizeRoundUp",
+    "value": "25"
+  },
+  {
+    "id": "10",
+    "name": "Transport",
+    "label": "transport",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*1",
+    "value": "100"
+  },
+  {
+    "id": "11",
+    "name": "Paper",
+    "label": "paperPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "(quantity/printingSize)*value",
+    "value": "4"
+  },
+  {
+    "id": "12",
+    "name": "Profit",
+    "label": "profit",
+    "input_unit": "price",
+    "output_unit": "price",
+    "equation": "value*1",
+    "value": "1.4"
+  }
+]

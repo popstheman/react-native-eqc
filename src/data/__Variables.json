@@ -1,0 +1,85 @@
+[
+  {
+    "id": "1",
+    "name": "Width",
+    "input_unit": "cm",
+    "output_unit": "m",
+    "value": "88"
+  },
+  {
+    "id": "2",
+    "name": "Height",
+    "input_unit": "cm",
+    "output_unit": "m",
+    "value": "66"
+  },
+  {
+    "id": "3",
+    "name": "Weight",
+    "input_unit": "g",
+    "output_unit": "ton",
+    "value": "300"
+  },
+  {
+    "id": "4",
+    "name": "POT",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "15000"
+  },
+  {
+    "id": "5",
+    "name": "CPS",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "5"
+  },
+  {
+    "id": "6",
+    "name": "Traj",
+    "label": "trajPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "40"
+  },
+  {
+    "id": "7",
+    "name": "Zinc",
+    "label": "zincPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "3"
+  },
+  {
+    "id": "8",
+    "name": "Lamination",
+    "label": "laminationPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "40"
+  },
+  {
+    "id": "9",
+    "name": "Takseer",
+    "label": "takseerPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "40"
+  },
+  {
+    "id": "10",
+    "name": "Transport",
+    "label": "transport",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "2"
+  },
+  {
+    "id": "11",
+    "name": "Paper",
+    "label": "paperPrice",
+    "input_unit": "price",
+    "output_unit": "price",
+    "value": "4"
+  }
+]
